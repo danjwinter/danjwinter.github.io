@@ -154,6 +154,16 @@ a {
    margin-left: 20px;
 
 }
+#rainier {
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:1px;
+   border:1px solid #021a40;
+   background-color: rgb(139,69,19);
+   margin-right: 0px;
+}
 
 #oregon-coast {
   height: 400px;
