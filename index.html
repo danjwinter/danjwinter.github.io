@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div id="home-layout">
+  <div id="banner">
+{% for post in site.posts %}
+<div class="title-post"
+  <h2 id="link"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+</div>
+</div>
+<div class="date-post"
+  <h4>{{ post.date | date: "%m-%d-%Y" }}</h4>
+</div>
+<div class="content-post">
+  <p>{{ post.content | strip_html | truncatewords:10}}</p>
+  <br>
+</div>
+{% endfor %}
+</div>
+<a href="/">
+<div id="mountaindiv"">
+  <h2 id="dan2">Dan Winter</h2>
+</div></a>

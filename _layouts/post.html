@@ -1,0 +1,16 @@
+<div id="postbanner">
+  <div id="padtop">
+  </div>
+{% include header.html %}
+<br>
+</div>
+<br>
+<h1 id="page-title">{{ page.title }}</h1>
+<p id="page-date">{{ page.date | date: '%B %d, %Y' }}</p>
+<br>
+<div id="postdiv">
+{{ content }}
+</div>
+</div id="footing">
+{% include footer.html %}
+</div<
