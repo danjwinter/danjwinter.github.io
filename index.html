@@ -1,23 +1,22 @@
 ---
 layout: default
 ---
-<div id="home-layout">
-  <div id="banner">
+<div class="avatar">
+</div>
+<div class="blog-title"> Dan's Medium Knock-off Blog</div>
+<div class="sub-title">
+  <div class="about-git">
+  <div class="title-item about"><a href="/1987/04/05/about-dan.html">About</a></div>
+  <div class="title-item github"><a href="http://github.com/danjwinter">Github</a></div>
+</div>
+  <div class="email"><a target="_blank" href="mailto:dan.j.winter@gmail.com">dansfakeemail@gmail.com</a></div>
+</div>
 {% for post in site.posts %}
-<div class="title-post"
-  <h2 id="link"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-</div>
-</div>
-<div class="date-post"
-  <h4>{{ post.date | date: "%m-%d-%Y" }}</h4>
-</div>
-<div class="content-post">
-  <p>{{ post.content | strip_html | truncatewords:10}}</p>
-  <br>
-</div>
-<br>
+  <div class="post">
+    <h2 class="post-link"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+    <h4 class="post-date">{{ post.date | date: "%m-%d-%Y" }}</h4>
+
+    <p class="post-content">{{ post.content | strip_html | truncatewords:10}}</p>
+  </div>
 {% endfor %}
-</div>
-<div id="bottomdiv">
-  <p>Each blog post is a collection of both raw images and retouched photos. How do you remember your adventures?</p>
-</div>

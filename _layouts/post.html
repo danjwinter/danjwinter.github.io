@@ -1,16 +1,18 @@
-<div id="postbanner">
-  <div id="padtop">
-  </div>
+
 {% include header.html %}
-<br>
+
+<div class="post-body">
+  <div class="author-box"><a href= "/">
+    <div class="avatar-small"></div>
+    <div class="avatar-text">
+      <div class="author-name">Dan Winter</div>
+      <div class="post-date">{{ page.date | date: '%B %d, %Y' }}</div>
+    </div>
+  </div></a>
+  <h1 class="page-title">{{ page.title }}</h1>
+
+<div class="post-page-content">
+  {{ content }}
 </div>
-<br>
-<h1 id="page-title">{{ page.title }}</h1>
-<p id="page-date">{{ page.date | date: '%B %d, %Y' }}</p>
-<br>
-<div id="postdiv">
-{{ content }}
 </div>
-</div id="footing">
 {% include footer.html %}
-</div<

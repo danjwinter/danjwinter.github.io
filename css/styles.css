@@ -1,284 +1,141 @@
-#header {
-  background-image: url(/images/oregon_coast1.jpg);
-  background-size: 1400px 300px;
-    font-size: 20px;
-    text-align: right;
-    padding: 120px;
-}
-
-#bottomdiv {
-  text-align: center;
-
-  background-image: url(/images/concrete_seamless.png); no-repeat center center fixed;
-  /*background-position: bottom;*/
-margin-left: 40px;
-margin-right: 40px;
-  background-position: 25% 75%;
-  background-color: rgb(246,241,234);
-  background-size: 1400px 200px;
-    font-size: 20px;
-    text-align: left;
-    padding: 120px;
-    opacity: 0.4;
-     filter: alpha(opacity=20);
-
-}
-/*#line2 {
-
-  position: relative;
-  height: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: 100px;
-  padding:1px;
-   border:1px solid #021a40;
-   background-color: rgb(139,69,19);
-   opacity: .8;
-
-}*/
 
 #title {
-  text-align: center;
-}
-.title-post {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  padding-bottom: 15 px;
-  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(130,91,0,1) 100%);   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(130,91,0,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#825b00',GradientType=0 ); /* IE6-9 */
+  display: none;
 }
 
-
-a {
-  text-decoration: none;
-}
-
-#dan {
-  position: relative;
-  right: -20px;
-  top: -60px;
-  font-family: 'Princess Sofia', cursive;
-}
-.container {
-  /*margin: auto;
-  width: 30%;*/
-  /*text-align: center;*/
-  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(130,91,0,1) 100%);   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(130,91,0,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#825b00',GradientType=0 ); /* IE6-9 */
-}
-.container h1, p {
-  text-align: center;
-}
-.container h4 {
+.blog-title {
+  font-size: 26px;
+  padding-top: 80px;
   text-align: center;
 }
 
-#padtop {
+.post {
   padding: 10px;
+  border-bottom: 1px solid black;
+  margin: 2% 20%;
 }
 
-.date-post, .content-post {
-  text-align: center;
-}
-#postbanner, #space, #postdiv, #footing {
-  text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,248,248)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(248,248,248) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D8D8D8 ', endColorstr='#F8F8F8 ',GradientType=10 ); /* IE6-9 */*/
-}*/
-
-#banner {
-  text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,248,248)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(248,248,248) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D8D8D8 ', endColorstr='#F8F8F8 ',GradientType=10 ); /* IE6-9 */
+.post:last-child {
+  border: none;
 }
 
-#nav-bar {
-  text-align: left;
-  /*position: relative;*/
-  /*left: -20px;
-  bottom: -80px;*/
-}
-#nav-bar li {
-  display: inline;
-  list-style-type: none;
-  text-align:  left;
-}
-#nav-bar li a {
-  color: tan;
-  transition-property: color;
-  transition-duration: .7s;
+.post-link {
+  font-size: 20px;
+  padding: 8px 0;
 }
 
-#nav-bar li a:hover {
-  color: blue;
+.post-link a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
-#roadtrip-map {
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:1px;
-   border:1px solid #021a40;
-   background-color: rgb(139,69,19);
-   margin-right: 0px;
-}
-#chariot {
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:1px;
-   border:1px solid #021a40;
-   background-color: rgb(139,69,19);
-   margin-left: 20px;
-
-}
-#rainier {
-  height: 500px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:1px;
-   border:1px solid #021a40;
-   background-color: rgb(139,69,19);
-   margin-right: 0px;
+.post-page-content {
+  padding-top: 15px;
 }
 
-#oregon-coast {
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:1px;
-   border:1px solid #021a40;
-   background-color: rgb(139,69,19);
-   margin-right: 0px;
-}
-#miata-in-mountains {
-  height: 800px;
-  /*display: block;*/
-  margin-left: auto;
-  margin-right: auto;
-  padding:1px;
-   border:1px solid #021a40;
-   background-color: rgb(139,69,19);
-   margin-right: 0px;
-}
-#puget-sound {
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:1px;
-   border:1px solid #021a40;
-   background-color: rgb(139,69,19);
-   margin-left: 20px;
-}
-#oregon-subtitle {
-  margin-right: 0px
-}
-#left {
-  margin-right: 0px;
-}
-#right {
-  margin-left: 20px;
+.about a {
+  text-decoration: none;
+  color: black;
 }
 
-#puget-subtitle {
-  margin-left: 20px
-}
-#subtitles {
-    text-align: center;
-    display: inline;
-}
-#images {
-  margin:0px auto;
-  text-align: center;
-}
-#images img{  display: inline;
-}
-#second-images {
-  margin:0px auto;
-  text-align: center;
-}
-#second-images img{  display: inline;
-}
-#second-images div{
-  display: inline-block;
+.post-date {
+  font-size: 10px;
+  padding-bottom: 3px;
 }
 
-#page-date {
-  text-align: center;
-  padding-bottom: 10px;
+.post-content {
+  color: #222;
+  padding-top: 5px;
 }
-#page-title {
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-p {
-
-    text-align: center;
-}
-
-#line {
-  text-align: center;
-  height: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:1px;
-}
-
 
 
 body {
-/*
-  background-image: url('/images/cloud.jpg'); no-repeat center center fixed;*/
-    background-image: url(/images/concrete_seamless.png); 0 0 no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-color: #ddd;
+  height: 100%;
+  width: 100%;
+}
+
+.banner {
+  background-image: url(https://cdn-images-1.medium.com/freeze/fit/c/2000/1600/gradv/29/81/30/1*zXdad-Ozpr8zcAybbBVAug.jpeg);
+  height: 200px;
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-  margin: auto;
-  color: rgb(32,32,32);
-  -webkit-text-stroke-width: 1px;
-  opacity: 0.9;
-   filter: alpha(opacity=10);
-   font-family: 'Sue Ellen Francisco', cursive;
-   font-size: 24px;
+}
 
-   /*background: #837960 url("Images/background.jpg") 0 0 no-repeat;*/
+.sub-title {
+  text-align: center;
+}
 
-    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(130,91,0,1) 100%);   /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(130,91,0,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(130,91,0,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#825b00',GradientType=0 ); /* IE6-9 */
+.title-item {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 0;
+}
 
+.about-git {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
+.title-item:first-child {
+  padding-right: 8px;
+  border-right: 1px solid black;
+}
+
+.avatar {
+  background-image: url(/images/dan_winter.jpg);
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  left: calc(50% - 50px);
+  top: 150px;
+  border-radius: 100%;
+}
+
+.avatar-small {
+  background-image: url(/images/dan_winter.jpg);
+  height: 32px;
+  width: 32px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.post-body {
+  padding: 20px;
+  margin: 2% 20%;
+}
+
+.page-title {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.avatar-small,
+.avatar-text {
+  display: table-cell;
+  padding: 5px;
+}
+
+.avatar-text {
+  vertical-align: middle;
+}
+
+.title-item a,
+.about-text a {
+  text-decoration: none;
+  color: #639AA8
+}
+
+.copyright {
+  text-align: center;
+  padding: 5px;
 }
