@@ -17,7 +17,7 @@
 .post {
   padding: 10px;
   border-bottom: 1px solid black;
-  margin: 2% 20%;
+  margin: 2% 10%;
 }
 
 .post:last-child {
@@ -62,7 +62,7 @@ body {
 }
 
 .banner {
-  background-image: url(https://cdn-images-1.medium.com/freeze/fit/c/2000/1600/gradv/29/81/30/1*zXdad-Ozpr8zcAybbBVAug.jpeg);
+  background-image: url(/images/tree.jpeg);
   height: 200px;
   /*position: absolute;*/
   top: 0;
